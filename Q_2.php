@@ -1,18 +1,20 @@
 <html>
-<body>
-    <div class="container">
-<form method="POST">
-    <lable>palindrome</lable>
-    <div class="row">
-        <div class="col-6">
-    <input type="number" name="num" placeholder="enter number"required/>
-</div>
-<div class="col-6">
-<input type="submit" name="btn" value="check">
-</div>
-</div>
-</form>
-</div>
+    <body>
+            <div class="container">
+                <form method="POST">
+                     <lable>palindrome</lable>
+                        <div class="row">
+                             <div class="col-6">
+                                    <input type="number" name="num" placeholder="enter number"required/>
+                               </div>
+                                <div class="col-6">
+                                    <input type="submit" name="btn" value="check">
+                                 </div>
+                            </div>
+                </form>
+            </div>
+    </body>
+</html>
 <?php
 
 if(isset($_POST['num']))
@@ -31,6 +33,4 @@ if(isset($_POST['num']))
         }
     }
 }
-?>
-</body>
-</html> 
+?> 
